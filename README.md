@@ -8,7 +8,7 @@ Cogitable is a set of tools to make Github Issues a personal note taking system.
 
 ## Roadmap
 
-- Introduce  **[[ ]]** "Wikilinks" to link Issues.
+- Introduce  **[[ ]]** "Wikilinks" on the Issues page.
 - Backlinks and automatic issues creations
 - Auto convert issues page in Markdown and commits in the repository
 - Automatic generates a Wiki page  
