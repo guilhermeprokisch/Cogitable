@@ -1,6 +1,18 @@
-# ideias
+# Cogitable Note Taking - In Progress 
+Cogitable is a set of tools to make Github Issues a personal note taking system. 
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
+## Components:
+
+ - Github app 
+ - Chrome Extension
+
+## Roadmap
+
+- Introduce  **[[ ]]** "Wikilinks" to link Issues.
+- Backlinks and automatic issues creations
+- Auto convert issues page in Markdown and commits in the repository
+- Automatic generates a Wiki page  
+- Automatic generates a website  based on the repo markdown files
 
 ## Setup
 
