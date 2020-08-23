@@ -5,9 +5,9 @@
   "description": "Turn Github in a Ideas repository",
   "author": "guilhermeprokisch <guilherme.prokisch@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/guilhermeprokisch/ideias.git",
-  "homepage": "https://github.com/guilhermeprokisch/ideias",
-  "bugs": "https://github.com/guilhermeprokisch/ideias/issues",
+  "repository": "https://github.com/guilhermeprokisch/Cogitable.git",
+  "homepage": "https://github.com/guilhermeprokisch/cogitable",
+  "bugs": "https://github.com/guilhermeprokisch/cogitable/issues",
   "keywords": [
     "probot",
     "github",

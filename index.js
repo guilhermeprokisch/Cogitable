@@ -49,7 +49,6 @@ module.exports = app => {
         body: `Cited on [${current_issue.data.title}](${current_issue.data.number}#issuecomment-${context.payload.comment.id})  \n > `  + body 
       }))
     ))
-
     await context.github.issues.updateComment(context.repo({
         comment_id: context.payload.comment.id, 
         body: body
