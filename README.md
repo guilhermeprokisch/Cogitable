@@ -7,8 +7,8 @@
 </p>
 
 
-# CoGitable Note Taking - In Development 
-CoGitable is a set of tools to make Github Issues a personal Note Taking system. 
+# Cogitable Note Taking - In Development 
+Cogitable is a set of tools to make Github Issues a personal Note Taking system. 
 
 ## Components:
 
