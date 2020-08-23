@@ -4,3 +4,6 @@ npm-debug.log
 !mock-cert.pem
 .env
 coverage
+.DS_Store
+.DS_Store
+.DS_Store
