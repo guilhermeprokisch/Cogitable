@@ -15,6 +15,9 @@ Cogitable is a set of tools to make Github Issues a personal Note Taking system.
  - Github app 
  - Chrome Extension
 
+## Setup:
+ - [Install here](https://github.com/apps/cogitable)
+
 ## Roadmap
 
 - Introduce  **[[ ]]** "Wikilinks" on the Issues page.
