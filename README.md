@@ -1,5 +1,14 @@
-# Cogitable Note Taking - In Progress 
-Cogitable is a set of tools to make Github Issues a personal note taking system. 
+<!-- Please be careful editing the below HTML, as GitHub is quite jk with anything that looks like an HTML tag in GitHub Flavored Markdown. -->
+<p align="center">
+  <img width="25%" src="assets/logo.png"  alt="Banner">
+</p>
+<p align="center">
+  <b>Make Github Issues a personal note taking system.</b>
+</p>
+
+
+# Cogitable Note Taking - In Development 
+Cogitable is a set of tools to make Github Issues a personal Note Taking system. 
 
 ## Components:
 
