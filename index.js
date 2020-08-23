@@ -1,30 +1,18 @@
-
 module.exports = app => {
-
-  //app.on('issues.opened', async context => {
-    //const issueComment = context.issue({ body: 'Thanks for opening this issue!' })
-    //return context.github.issues.createComment(issueComment)
-  //})
 
   app.on(['issue_comment.created', 'issue_comment.edited' ], async context => {
 
-    const comment = await context.github.issues.getComment(context.repo({
-        comment_id: context.payload.comment.id,
-        headers: { accept: 'application/vnd.github.raw+json' }
-    }))
-      
-    let body = comment.data.body
+    let body = context.payload.comment.body
     var reg = /\[\[(.+?)\]\]/g  
     var links = []
+
     var current_issue = await context.github.issues.get(context.repo({
         issue_number: context.issue().number 
     }))
 
-
     if (body.match(/\[\[(.+?)\]\]/g)){
 
         var match
-    
         while((match = reg.exec(body)) !== null) {
             const link = match[1]
             context.github.search
@@ -33,7 +21,6 @@ module.exports = app => {
                 order: 'asc',
                 per_page: 1
             }))
-            
             const items = results.data.items
             if (typeof items !== undefined && typeof items[0] !== undefined){
                 var result_number = items[0].number
@@ -41,9 +28,7 @@ module.exports = app => {
             }else{
                 var result_title = null
             }
-
             let link_number
-
             if( link === result_title ){
                 link_number = result_number
             }else{
@@ -52,13 +37,11 @@ module.exports = app => {
                 }))
                 link_number = new_issue.data.number
             }
-
             links.push([link, link_number])
         }
     }else{
         app.log('No Matchs')
     }
-
     links.forEach(link => body = body.replace(`[[${link[0]}]]`, `[${link[0]}](${link[1]})`))
 
     links.forEach(( link => context.github.issues.createComment(context.repo({
