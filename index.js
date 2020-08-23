@@ -5,6 +5,9 @@ module.exports = app => {
     let body = context.payload.comment.body
     var reg = /\[\[(.+?)\]\]/g  
     var links = []
+    var owner = context.repo().owner
+    var repo = context.repo().repo
+    var onwer_repo = owner + '/' + repo
 
     var current_issue = await context.github.issues.get(context.repo({
         issue_number: context.issue().number 
@@ -17,7 +20,8 @@ module.exports = app => {
             const link = match[1]
             context.github.search
             const results = await context.github.search.issuesAndPullRequests(context.repo({
-                q: link,
+
+                q: link + `repo:${onwer_repo}`,
                 order: 'asc',
                 per_page: 1
             }))
