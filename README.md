@@ -21,10 +21,15 @@ Cogitable is a set of tools to make Github Issues a personal Note Taking system.
  - Install the Github App [here](https://github.com/apps/cogitable)
  - Give permission for Cogito in your new created repo
 
-## Roadmap
+
+## Features:
 
 - Introduce  **[[ ]]** "Wikilinks" on the Issues page.
 - Backlinks and automatic issues creations
+
+
+## Roadmap
+
 - Auto convert issues page in Markdown and commits in the repository
 - Automatic generates a Wiki page  
 - Automatic generates a website  based on the repo markdown files
