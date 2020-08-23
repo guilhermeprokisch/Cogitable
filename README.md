@@ -41,4 +41,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2020 guilhermeprokisch <guilherme.prokisch@gmail.com>
+[ISC](LICENSE) © 2020 guilhermeprokisch <guilherme@prokis.ch>
