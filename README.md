@@ -34,7 +34,7 @@ Cogitable is a set of tools to make Github Issues a personal Note Taking system.
 - Automatic generates a Wiki page  
 - Automatic generates a website  based on the repo markdown files
 
-## Running a instace locally
+## Running a instance locally
 
 ```sh
 # Install dependencies
