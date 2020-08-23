@@ -3,7 +3,7 @@
   <img width="25%" src="assets/logo.png"  alt="Banner">
 </p>
 <p align="center">
-  <b>Make Github Issues a personal note taking system.</b>
+  <b>Make Github Issues page a personal note taking system.</b>
 </p>
 
 
