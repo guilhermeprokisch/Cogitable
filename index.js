@@ -1,6 +1,6 @@
 module.exports = app => {
 
-  app.on(['issue_comment.created', 'issue_comment.edited' ], async context => {
+  app.on(['issue.created','issue_comment.created', 'issue_comment.edited' ], async context => {
 
     let body = context.payload.comment.body
     var reg = /\[\[(.+?)\]\]/g  
