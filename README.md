@@ -1,6 +1,6 @@
 <!-- Please be careful editing the below HTML, as GitHub is quite jk with anything that looks like an HTML tag in GitHub Flavored Markdown. -->
 <p align="center">
-  <img width="25%" src="assets/logo.png"  alt="Banner">
+  <img width="35%" src="assets/logo.png"  alt="Banner">
 </p>
 <p align="center">
   <b>Make Github Issues page a personal note taking system.</b>
