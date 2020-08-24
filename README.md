@@ -14,7 +14,7 @@ Cogitable is a set of tools to make Github Issues a personal Note Taking system.
 
  - Create a new repository. Example: Notes
  - Install the Github App [here](https://github.com/apps/cogitable)
- - Give permission for Cogito in your new created repo.
+ - Give permission for Cogitable in your new created repo.
 
 ## Features:
 
