@@ -10,23 +10,16 @@
 # Cogitable Note Taking - In Development 
 Cogitable is a set of tools to make Github Issues a personal Note Taking system. 
 
-## Components:
-
- - Github app 
- - Chrome Extension
-
 ## Setup:
 
  - Create a new repository. Exemple: ideas
  - Install the Github App [here](https://github.com/apps/cogitable)
  - Give permission for Cogito in your new created repo
 
-
 ## Features:
 
 - Introduce  **[[ ]]** "Wikilinks" on the Issues page.
 - Backlinks and automatic issues creations
-
 
 ## Roadmap
 
