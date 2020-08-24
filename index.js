@@ -87,7 +87,7 @@ module.exports = app => {
           context.repo({
             issue_number: link[1],
             body:
-              `Cited on [${current_issue.title}](${current_issue.number}#issuecomment-${id})  \n > ` +
+              `Mentioned in [${current_issue.title}](${current_issue.number}#issuecomment-${id})  \n > ` +
               body
           })
         )
